@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <title>Document</title>
+</head>
+<body>
+    <header class="header-sec">
+        <h2 class="header-sec-title">THE RECIPE APP</h2>
+        <P class="header-sec-para">What recipe do you want to save today?</P>
+    </header>
+    <div class="search-btn">
+        <h2 class="add-title">Add Recipe</h2>
+    </div>
+    <div class="body-sec">
+        <div class="container-sec1">
+            <input type="text" class="add-res" id="recipe-name" placeholder="Add recipe name" required="required"> 
+            <textarea class="add-recipe-step" id="recipe-steps" placeholder="Recipe steps" required="required"></textarea>
+        <div>
+        <button onclick="toggleFunction()" class="add-btn">Add new recipe</button>
+        </div>
+        </div>
+    </div>
+    <script src="add.js"></script>
+</body>
+</html>
